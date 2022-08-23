@@ -105,6 +105,7 @@
 
 
 }
+
 .imagenes-index {
     display: flex;
     justify-content: center;
@@ -229,19 +230,21 @@
     width: 100%;
     background-color: #129dcc;
 
-  
+
 
 }
- .grupo-1{
+
+.grupo-1 {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
     padding: 45px 0px;
 
 }
+
 .caja figure {
     width: 100%;
     height: 100%;
@@ -250,22 +253,25 @@
     align-items: center;
 
 }
-.caja figure img{
+
+.caja figure img {
     width: 250px;
 
 }
-.caja h2{
-    color:white;
+
+.caja h2 {
+    color: white;
     margin-bottom: 25px;
     font-size: 20px;
 }
-.caja p{
-    color:#efefef;
+
+.caja p {
+    color: #efefef;
     margin-bottom: 10px;
 
 }
 
-.redes-sociales a{
+.redes-sociales a {
     display: inline-block;
     text-decoration: none;
     width: 45px;
@@ -278,7 +284,8 @@
     margin-left: 35px;
 
 }
-.redes-sociales a:hover{
+
+.redes-sociales a:hover {
     background-color: rgb(193, 193, 218);
     font-size: 2em;
 
@@ -300,43 +307,49 @@ a {
 }
 
 /*COMIENZO DE LA PAGINA MATESPAMPA.HTML*/
-.cartas-imagenes-uno{
+.cartas-imagenes-uno {
     display: flex;
     justify-content: center;
     margin: 15px;
     padding: 15px;
-    
+
 }
 
-.cartas-imagenes-dos{
+.cartas-imagenes-dos {
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
 }
-.cartas-imagenes-uno img{
+
+.cartas-imagenes-uno img {
     width: 100%;
     height: 100%;
- 
-   
+
+
 }
-.cartas-imagenes-dos img{
+
+.cartas-imagenes-dos img {
     width: 100%;
     height: 100%;
 }
-.card-text{
+
+.card-text {
     font-size: 20px;
     text-align: center;
-   
-    
+
+
 }
-.precio{
+
+.precio {
     text-align: center;
     font-size: 25px;
 }
-.infoPampa{
+
+.infoPampa {
     display: flex;
 }
-.infoPampa h3{
+
+.infoPampa h3 {
     padding-top: 25px;
     padding-left: 15px;
 }
@@ -344,46 +357,53 @@ a {
 
 
 /*COMIENZO DE LA PAGINA NOSOTROS.HTML*/
-.boton-productos-PAMPA{
-    padding:20px;
-    
+.boton-productos-PAMPA {
+    padding: 20px;
+
 }
-.quienesSomos{
-    text-align:end;
+
+.quienesSomos {
+    text-align: end;
     padding-top: 20px;
     padding-right: 450px;
     font-size: 45px;
 
 }
-.imagenes-parrafos{
+
+.imagenes-parrafos {
     display: flex;
     justify-content: start;
-    
+
 }
-.imagenes-parrafos img{
+
+.imagenes-parrafos img {
     width: 700px;
     height: 500px;
     padding-left: 15px;
 
 }
-.parrafos{
+
+.parrafos {
     padding: 50px;
     text-align: center;
     justify-content: center;
     font-size: 35px;
 }
+
 /*COMIENZA PAG DE DISEÑO*/
-.h1-diseños{
+.h1-diseños {
     text-align: center;
-   
+
 }
-.diseño{
+
+.diseño {
     display: flex;
     padding-left: 20px;
     box-shadow: 5px 8px 12px black;
     padding-top: 15px;
 }
-.i-diseño{
+
+.i-diseño {
     padding-top: 10px;
     padding-left: 15px;
     justify-content: center;
