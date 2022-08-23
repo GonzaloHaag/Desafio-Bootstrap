@@ -195,7 +195,7 @@
 .input-formulario {
     border-radius: 15px;
     box-shadow: 5px 8px 12px black;
-    width: 50vw;
+    width: 30vw;
     margin: 30px;
     padding: 10px;
     background-color: #ade8f4;
@@ -226,38 +226,65 @@
 /*COMIENZO DEL FOOTER*/
 
 .footer {
-    grid-area: footer;
-    background-color: #ade8f4;
-    max-width: 100vw;
+    width: 100%;
+    background-color: #129dcc;
+
+  
+
+}
+ .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+
+}
+.caja figure {
+    width: 100%;
     height: 100%;
-    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja figure img{
+    width: 250px;
+
+}
+.caja h2{
+    color:white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.caja p{
+    color:#efefef;
+    margin-bottom: 10px;
 
 }
 
-.footer a {
-
-    margin: 0px 15px;
+.redes-sociales a{
     display: inline-block;
-    font-size: 25px;
-}
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all .3s ease;
+    margin-left: 35px;
 
-.footer a:hover {
+}
+.redes-sociales a:hover{
     background-color: rgb(193, 193, 218);
     font-size: 2em;
+
 }
 
-.seguinos {
-    margin-left: 20px;
-    margin-top: 10px;
-}
 
-.wsp {
-    margin-left: 20px;
-}
-
-.contactanos {
-    margin-left: 20px;
-}
 
 
 
@@ -271,6 +298,98 @@ a {
     /*Le saco el subrayado a las etiquetas que estan en mi navbar*/
 
 }
+
+/*COMIENZO DE LA PAGINA MATESPAMPA.HTML*/
+.cartas-imagenes-uno{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.cartas-imagenes-dos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.cartas-imagenes-uno img{
+    width: 100%;
+    height: 100%;
+ 
+   
+}
+.cartas-imagenes-dos img{
+    width: 100%;
+    height: 100%;
+}
+.card-text{
+    font-size: 20px;
+    text-align: center;
+   
+    
+}
+.precio{
+    text-align: center;
+    font-size: 25px;
+}
+.infoPampa{
+    display: flex;
+}
+.infoPampa h3{
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+
+
+/*COMIENZO DE LA PAGINA NOSOTROS.HTML*/
+.boton-productos-PAMPA{
+    padding:20px;
+    
+}
+.quienesSomos{
+    text-align:end;
+    padding-top: 20px;
+    padding-right: 450px;
+    font-size: 45px;
+
+}
+.imagenes-parrafos{
+    display: flex;
+    justify-content: start;
+    
+}
+.imagenes-parrafos img{
+    width: 700px;
+    height: 500px;
+    padding-left: 15px;
+
+}
+.parrafos{
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+}
+/*COMIENZA PAG DE DISEÑO*/
+.h1-diseños{
+    text-align: center;
+   
+}
+.diseño{
+    display: flex;
+    padding-left: 20px;
+    box-shadow: 5px 8px 12px black;
+    padding-top: 15px;
+}
+.i-diseño{
+    padding-top: 10px;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+/*FOOTER RESPONSIVE, (YOUTUBE)*/
 
 
 
