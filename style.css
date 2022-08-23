@@ -105,6 +105,16 @@
 
 
 }
+.imagenes-index {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes-index img {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
 
 .destacados {
     text-align: center;
@@ -211,18 +221,7 @@
 
 
 
-.div-container {
-    max-width: 80vw;
-}
 
-.div-container img {
-    width: 97vw;
-
-}
-
-.div-container iframe {
-    width: 97vw;
-}
 
 /*COMIENZO DEL FOOTER*/
 
@@ -280,17 +279,13 @@ a {
     background-color: blueviolet;
     flex-wrap: wrap;
 }
-
 .mainBombillas {
     background-color: blueviolet;
 }
-
 .mainContacto {
     background-color: blueviolet;
     flex-wrap: wrap;
-
 }
-
 .mainMates {
     flex-wrap: wrap;
 } ---> observar que a todos estos main le puse lo mismo, les puedo designar solo una clase y listo*/
