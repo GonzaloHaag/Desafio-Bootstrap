@@ -408,27 +408,155 @@ a {
     padding-left: 15px;
     justify-content: center;
 }
+/*Responsive design*/
+@media(min-width:360px) and (max-width:1366px){
+    .color-nav-boostrap {
+        background-color: yellowgreen;
+    }
+    .imagenes-index {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagenes-index img {
+        width: 130px;
+        height: 130px;
+        margin: 20px;
+    }
+    .compartir {
+        background-color: white;
+        text-align: center;
+        width: 500px;
+        height: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 8px 12px black;
+        font-size: 20px;
+        color: black;
+        position: absolute;
+        top: 132%;
+        left: 35.5%;
+        transform: translate(-50%, -50%);
+        padding: 5px;
+        display: none; /*Elimino los textos*/
+    
+    
+    }
+    
+    .conectarse {
+        display: none; /*Elimino los textos*/
+        background-color: white;
+        text-align: center;
+        width: 130px;
+        height: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 8px 12px black;
+        font-size: 10px;
+        color: black;
+        position: absolute;
+        top: 61%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        padding: 5px;
+    
+    
+    }
+    .productos-destacados img {
+        width: 100%; /*El 100% del contenedor*/
+        margin-top: 15px;
+        
+        height: 330px;
+    }
+    .productos-destacados {
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+    .dos-imagenes {
+        width: 85vw;
+        justify-content: center;
+        margin-left: 10px;
+    
+    
+    }
+    
+    .dos-imagenes img {
+        width: 100%;
+        justify-content: center;
+        margin: 15px;
+        height: 300px;
+    
+    
+    }
+    .footer {
+        width: 100%;
+        background-color:aqua;
+    
+    
+    
+    }
+    
+    .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    
+    }
+    
+    .caja figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .caja figure img {
+        width: 100px;
+        height: 100px;
+        
+    
+    }
+    
+    .caja h2 {
+        color:black;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        font-size: 15px;
+        transform: translateY(-50px);
+        height: 30px;
 
-/*FOOTER RESPONSIVE, (YOUTUBE)*/
-
-
-
-
-/*.mainNosotros {
-    background-color: blueviolet;
-    flex-wrap: wrap;
+    }
+    .caja i{
+        transform: translateY(-30px);
+        margin-left: 20px;
+    }
+    
+    .caja p {
+        color: #efefef;
+        margin-bottom: 10px;
+    
+    }
+    
+    .redes-sociales a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin-right: 10px;
+        background-color: #0d2033;
+        text-align: center;
+        transition: all .3s ease;
+        margin-left: 35px;
+        transform: translateY(-50px);
+    
+    }
+    
+   
 }
-.mainBombillas {
-    background-color: blueviolet;
-}
-.mainContacto {
-    background-color: blueviolet;
-    flex-wrap: wrap;
-}
-.mainMates {
-    flex-wrap: wrap;
-} ---> observar que a todos estos main le puse lo mismo, les puedo designar solo una clase y listo*/
 
 
-/*MEDIAS QUERY, MOBILE FIRST=min-width-->EN MOVIL*/
-/*Dispositivos medianos*/
