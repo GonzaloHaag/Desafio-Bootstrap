@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
     /*Cambiamos la letra  a todo*/
     box-sizing: border-box;
+    border: solid black 2px;
 
 
 
@@ -155,10 +156,11 @@
 }
 
 .dos-imagenes {
-    width: 65vw;
+    width: 50vw;
 
     justify-content: center;
     margin-left: 300px;
+    margin-bottom: 5px;
 
 
 }
@@ -166,7 +168,7 @@
 .dos-imagenes img {
     width: 100%;
     justify-content: center;
-    margin: 15px;
+    margin-top: 15px;
     height: 700px;
 
 
@@ -421,13 +423,14 @@ a {
     justify-content: center;
 }
 /*Responsive design*/
-@media(min-width:360px) and (max-width:600px){ /*Hasta los 600px luego acomodarlo de otra forma*/
+@media(min-width:360px) and (max-width:990px){ /*Esto va desde los 360px hasta los 990px*/
     .color-nav-boostrap {
         background-color: yellowgreen;
     }
     .imagenes-index {
         display: flex;
         justify-content: center;
+        
     }
     
     .imagenes-index img {
@@ -483,9 +486,10 @@ a {
         width: 90vw;
     }
     .dos-imagenes {
-        width: 85vw;
+        width: 50vw;
+    
         justify-content: center;
-        margin-left: 10px;
+        margin-left: 100px;
     
     
     }
@@ -493,11 +497,16 @@ a {
     .dos-imagenes img {
         width: 100%;
         justify-content: center;
-        margin: 15px;
+        margin-top: 15px;
         height: 300px;
     
     
     }
+    
+       
+    
+    
+    
     .footer {
         width: 100%;
         background-color:aqua;
@@ -586,11 +595,9 @@ a {
         text-align: center;
         font-size: 10px;
     }
+}
    
    
     
    
-}
-/*Antes de los 360px se rompe todo, crear una media para eso*/
-
 
