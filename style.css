@@ -6,6 +6,7 @@
     /*Cambiamos la letra  a todo*/
     box-sizing: border-box;
    
+   
 
 
 
@@ -415,6 +416,7 @@ a {
     padding-top: 20px;
     padding-right: 450px;
     font-size: 45px;
+  
 
 }
 
@@ -427,7 +429,7 @@ a {
 .imagenes-parrafos img {
     width: 700px;
     height: 500px;
-    padding-left: 15px;
+    margin: 0 auto;
 
 }
 
@@ -629,7 +631,103 @@ a {
         text-align: center;
         font-size: 10px;
     }
+    .card-text {
+        font-size: 10px;
+        text-align: center;
+    
+    
+    }
+    .precio {
+        text-align: center;
+        font-size: 10px;
+    }
+    .quienesSomos {
+        padding: 15px;
+        text-align: center;
+         font-size: 20px;
+        
+         
+    
+    }
+    
+    .imagenes-parrafos {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    
+    }
+    
+    .imagenes-parrafos img {
+        width: 700px;
+        height: 500px;
+        padding-left: 15px;
+    
+    }
+    
+    
+    .parrafos {
+       padding: 15px;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .h1-diseños {
+        text-align: center;
+    
+    }
+    
+    .diseño {
+        display: flex;
+        padding-left: 20px;
+        box-shadow: 5px 8px 12px black;
+        padding-top: 15px;
+    }
+    
+    .i-diseño {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+        justify-content: center;
+        font-size: 10px;
+    }
+    
+    
 }
+@media (min-width:990px){
+    .quienesSomos {
+        padding: 15px;
+        text-align: center;
+         font-size: 20px;
+        
+        
+         
+    
+    }
+    
+    .imagenes-parrafos {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    
+    }
+    
+    .imagenes-parrafos img {
+        width: 700px;
+        height: 500px;
+        padding-left: 15px;
+    
+    }
+    
+    
+    .parrafos {
+       padding: 15px;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+}
+
+
    
    
     
