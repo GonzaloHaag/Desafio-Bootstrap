@@ -291,10 +291,16 @@ a {
     padding-left: 15px; }
 
 @media (min-width: 360px) and (max-width: 990px) {
-  .card-text {
+  .cartas-imagenes-uno .card-text {
     font-size: 10px;
     text-align: center; }
-  .precio {
+  .cartas-imagenes-uno .precio {
+    text-align: center;
+    font-size: 10px; }
+  .cartas-imagenes-dos .card-text {
+    font-size: 10px;
+    text-align: center; }
+  .cartas-imagenes-dos .precio {
     text-align: center;
     font-size: 10px; } }
 
