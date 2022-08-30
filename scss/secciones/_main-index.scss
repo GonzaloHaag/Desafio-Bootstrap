@@ -1,0 +1,135 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+
+.CARROUSEL-PADRE {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    .ancho-carrousel{
+        width: 50vw;
+    }
+}
+
+.imagenes-index {
+    display: flex;
+    justify-content: center;
+    img{
+        width: 500px;
+        height: 500px;
+        margin: 20px;
+    }
+}
+
+
+.destacados {
+    text-align: center;
+    font-size: 2em;
+    transition:0.5s;
+    width: 300px;
+    margin:0 auto;
+    &:hover{
+        background-color:bisque;
+        transform: translateX(250px) rotate(360deg) skew(35deg) scale(2);
+
+    }
+
+
+}
+.productos-destacados {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px auto;
+    width: 70vw;
+    img{
+        width: 300px;
+        margin-top: 15px;
+        height: 330px;
+        &:hover{
+            transform: rotate(-5deg);
+
+        }
+
+    }
+}
+  
+.boton-productos {
+    text-align: center;
+    margin-top: 40px;
+    .btn-primary{
+        background-color: rgb(47, 47, 110);
+        padding: 10px;
+
+    }
+
+
+}
+.dos-imagenes {
+    width: 50vw;
+
+    justify-content: center;
+    margin-left: 300px;
+    margin-bottom: 5px;
+    img{
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+        height: 700px;
+    
+
+    }
+
+
+}
+
+@media(min-width:360px) and (max-width:990px){ /*Esto va desde los 360px hasta los 990px*/
+    .color-nav-boostrap {
+        background-color: yellowgreen;
+    }
+    .imagenes-index {
+        display: flex;
+        justify-content: center;
+        img{
+            width: 130px;
+            height: 130px;
+            margin: 20px;
+
+        }
+        
+    }  
+    .productos-destacados {
+        flex-wrap: wrap;
+        width: 90vw;
+        img{
+            width: 100%; /*El 100% del contenedor*/
+            margin-top: 15px;
+            
+            height: 330px;
+
+        }
+    }
+    .dos-imagenes {
+        width: 50vw;
+    
+        justify-content: center;
+        margin-left: 100px;
+        img{
+            width: 100%;
+            justify-content: center;
+            margin-top: 15px;
+            height: 300px;
+
+        }
+    
+    
+    }
+    
+    
+       
+    
+}

@@ -1,0 +1,42 @@
+.h1-diseños {
+    text-align: center;
+
+}
+
+.diseño {
+    display: flex;
+    padding-left: 20px;
+    box-shadow: 5px 8px 12px black;
+    padding-top: 15px;
+    .i-diseño{
+        padding-top: 10px;
+        padding-left: 15px;
+        justify-content: center;
+    }
+
+    }
+    @media(min-width:360px) and (max-width:990px){
+
+
+    .h1-diseños {
+        text-align: center;
+    
+    }
+    
+    .diseño {
+        display: flex;
+        padding-left: 20px;
+        box-shadow: 5px 8px 12px black;
+        padding-top: 15px;
+        .i-diseño{
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 5px;
+            justify-content: center;
+            font-size: 10px;
+
+        }
+    }
+    
+    
+}

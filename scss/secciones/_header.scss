@@ -1,0 +1,29 @@
+.color-nav-boostrap {
+    background-color: #0096c7;
+    .navbar-brand{
+        img{
+    width: 150px;
+    height: 150px;
+}
+
+        }
+        .dropdown-menu{
+            .dropdown-item:hover{
+                background-color: #0096c7;
+            
+            }
+        }
+        .navbar-nav{
+            display: flex;
+            margin: 15px auto;
+            font-size: 20px;
+            li:hover{
+                background-color: #129dcc;
+
+            }
+
+        }
+    }
+    
+
+

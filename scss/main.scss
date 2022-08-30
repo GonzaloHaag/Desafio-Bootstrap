@@ -1,0 +1,28 @@
+* {
+    /*Hacemos reset*/
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Cambiamos la letra  a todo*/
+    box-sizing: border-box;
+   
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    /*Le saco el subrayado a las etiquetas que estan en mi navbar*/
+
+}
+/*Comienzo header*/
+@import './secciones/header'; /*Importare la seccion de header*/
+@import './secciones/main-index'; /*Main-index*/
+@import './secciones/contacto'; /*Contacto*/
+@import './secciones/footer'; /*Footer*/
+@import './secciones/matesPampa'; /*Matespampa*/
+@import './secciones/nosotros'; /*Nosotros*/
+@import './secciones/DiseñosPersonalizados'; /*Diseños personalizados*/
+/*Responsive design*/
+
+    
+    
+
