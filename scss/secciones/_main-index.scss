@@ -42,16 +42,18 @@
 
 }
 .productos-destacados {
-    flex-wrap: wrap;
+   
     justify-content: center;
-    margin: 15px auto;
+    margin: 20px auto;
     width: 70vw;
     img{
         width: 300px;
-        margin-top: 15px;
+        margin:10px;
         height: 330px;
+       
         &:hover{
             transform: rotate(-5deg);
+            scale: 1.2;
 
         }
 
@@ -61,25 +63,28 @@
 .boton-productos {
     text-align: center;
     margin-top: 40px;
-    .btn-primary{
+    .btn-primary-Productos{
         background-color: rgb(47, 47, 110);
         padding: 10px;
+        color: white;
 
     }
 
 
 }
 .dos-imagenes {
-    width: 50vw;
-
+    width: 60vw;
     justify-content: center;
+    align-items: center;
+
+    
     margin-left: 300px;
     margin-bottom: 5px;
     img{
         width: 100%;
         justify-content: center;
-        margin-top: 15px;
         height: 700px;
+        margin-top: 5px;
     
 
     }
@@ -89,7 +94,7 @@
 
 @media(min-width:360px) and (max-width:990px){ /*Esto va desde los 360px hasta los 990px*/
     .color-nav-boostrap {
-        background-color: yellowgreen;
+        background-image: linear-gradient(to left,#bcd6bc,#70ac70);
     }
     .imagenes-index {
         display: flex;

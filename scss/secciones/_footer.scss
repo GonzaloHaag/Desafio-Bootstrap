@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: #129dcc;
+    background-image: linear-gradient(to left,#bcd6bc,#70ac70);
     .grupo-1{
         width: 100%;
     max-width: 1200px;
@@ -67,7 +67,7 @@
     @media(min-width:360px) and (max-width:990px){
         .footer {
             width: 100%;
-            background-color:aqua;
+            background-image: linear-gradient(to left,#bcd6bc,#70ac70);
             .grupo-1{
                 width: 100%;
                 max-width: 1200px;

@@ -14,18 +14,18 @@ a {
 
 /*Comienzo header*/
 .color-nav-boostrap {
-  background-color: #0096c7; }
+  background-image: linear-gradient(to left, #bcd6bc, #70ac70); }
   .color-nav-boostrap .navbar-brand img {
     width: 150px;
     height: 150px; }
   .color-nav-boostrap .dropdown-menu .dropdown-item:hover {
-    background-color: #0096c7; }
+    color: blue; }
   .color-nav-boostrap .navbar-nav {
     display: flex;
     margin: 15px auto;
     font-size: 20px; }
     .color-nav-boostrap .navbar-nav li:hover {
-      background-color: #129dcc; }
+      background-color: azure; }
 
 /*Importare la seccion de header*/
 .body {
@@ -59,39 +59,41 @@ a {
     transform: translateX(250px) rotate(360deg) skew(35deg) scale(2); }
 
 .productos-destacados {
-  flex-wrap: wrap;
   justify-content: center;
-  margin: 15px auto;
+  margin: 20px auto;
   width: 70vw; }
   .productos-destacados img {
     width: 300px;
-    margin-top: 15px;
+    margin: 10px;
     height: 330px; }
     .productos-destacados img:hover {
-      transform: rotate(-5deg); }
+      transform: rotate(-5deg);
+      scale: 1.2; }
 
 .boton-productos {
   text-align: center;
   margin-top: 40px; }
-  .boton-productos .btn-primary {
+  .boton-productos .btn-primary-Productos {
     background-color: #2f2f6e;
-    padding: 10px; }
+    padding: 10px;
+    color: white; }
 
 .dos-imagenes {
-  width: 50vw;
+  width: 60vw;
   justify-content: center;
+  align-items: center;
   margin-left: 300px;
   margin-bottom: 5px; }
   .dos-imagenes img {
     width: 100%;
     justify-content: center;
-    margin-top: 15px;
-    height: 700px; }
+    height: 700px;
+    margin-top: 5px; }
 
 @media (min-width: 360px) and (max-width: 990px) {
   /*Esto va desde los 360px hasta los 990px*/
   .color-nav-boostrap {
-    background-color: yellowgreen; }
+    background-image: linear-gradient(to left, #bcd6bc, #70ac70); }
   .imagenes-index {
     display: flex;
     justify-content: center; }
@@ -119,7 +121,7 @@ a {
 
 /*Main-index*/
 .main {
-  background-color: #00b4d8; }
+  background-color: #9dce9d; }
   .main .h2-contacto {
     text-align: center;
     width: 700px;
@@ -168,7 +170,7 @@ a {
 /*Contacto*/
 .footer {
   width: 100%;
-  background-color: #129dcc; }
+  background-image: linear-gradient(to left, #bcd6bc, #70ac70); }
   .footer .grupo-1 {
     width: 100%;
     max-width: 1200px;
@@ -210,7 +212,7 @@ a {
 @media (min-width: 360px) and (max-width: 990px) {
   .footer {
     width: 100%;
-    background-color: aqua; }
+    background-image: linear-gradient(to left, #bcd6bc, #70ac70); }
     .footer .grupo-1 {
       width: 100%;
       max-width: 1200px;
@@ -263,12 +265,14 @@ a {
   .cartas-imagenes-uno img {
     width: 100%;
     height: 100%; }
-  .cartas-imagenes-uno .card-text {
+  .cartas-imagenes-uno .card-title {
     font-size: 20px;
     text-align: center; }
-  .cartas-imagenes-uno .precio {
+  .cartas-imagenes-uno .card-text {
     text-align: center;
     font-size: 25px; }
+  .cartas-imagenes-uno .card {
+    margin: 2px; }
 
 .cartas-imagenes-dos {
   display: flex;
@@ -277,12 +281,24 @@ a {
   .cartas-imagenes-dos img {
     width: 100%;
     height: 100%; }
-  .cartas-imagenes-dos .card-text {
+  .cartas-imagenes-dos .card-title {
     font-size: 20px;
     text-align: center; }
-  .cartas-imagenes-dos .precio {
+  .cartas-imagenes-dos .card-text {
     text-align: center;
     font-size: 25px; }
+  .cartas-imagenes-dos .card {
+    margin: 2px; }
+
+.btn-primary {
+  justify-content: center;
+  width: 100%; }
+
+.btn-primary-info {
+  background-color: #212157;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: white; }
 
 .infoPampa {
   display: flex; }
@@ -291,16 +307,16 @@ a {
     padding-left: 15px; }
 
 @media (min-width: 360px) and (max-width: 990px) {
-  .cartas-imagenes-uno .card-text {
+  .cartas-imagenes-uno .card-title {
     font-size: 10px;
     text-align: center; }
-  .cartas-imagenes-uno .precio {
+  .cartas-imagenes-uno .card-text {
     text-align: center;
     font-size: 10px; }
-  .cartas-imagenes-dos .card-text {
+  .cartas-imagenes-dos .card-title {
     font-size: 10px;
     text-align: center; }
-  .cartas-imagenes-dos .precio {
+  .cartas-imagenes-dos .card-text {
     text-align: center;
     font-size: 10px; } }
 

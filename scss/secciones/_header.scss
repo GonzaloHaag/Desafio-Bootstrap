@@ -1,5 +1,5 @@
 .color-nav-boostrap {
-    background-color: #0096c7;
+    background-image: linear-gradient(to left,#bcd6bc,#70ac70);
     .navbar-brand{
         img{
     width: 150px;
@@ -9,7 +9,8 @@
         }
         .dropdown-menu{
             .dropdown-item:hover{
-                background-color: #0096c7;
+                
+                color:blue;
             
             }
         }
@@ -18,7 +19,7 @@
             margin: 15px auto;
             font-size: 20px;
             li:hover{
-                background-color: #129dcc;
+                background-color: azure;
 
             }
 
